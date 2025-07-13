@@ -21,3 +21,28 @@
     font-family: 'Montserrat-Regular', sans-serif;
     margin-top: -1.5vh;
 }
+
+.About-Me-01 {
+    position: absolute;
+    top: 2vh;
+    right: 4vw;
+    width: fit-content;
+}
+
+.Number {
+    font-size: 120px;
+    font-family: 'Poppins-ExtraBold', sans-serif;
+    position: relative;
+    color: #000;
+}
+
+.About-Me {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: 'Poppins-ExtraBold', sans-serif;
+    color: #373737;
+    white-space: nowrap;
+}
