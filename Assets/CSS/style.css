@@ -1,0 +1,23 @@
+.branding {
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+    font-family: 'Poppins-ExtraBold', sans-serif;
+}
+
+.roca {
+    font-size: 40px;
+    display: inline-block;
+}
+
+.dot {
+    color: #0081FF;
+}
+
+.subtitle {
+    font-size: 13px;
+    width: max-content;
+    color: #B3B3B3;
+    font-family: 'Montserrat-Regular', sans-serif;
+    margin-top: -1.5vh;
+}

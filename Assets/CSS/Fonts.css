@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('/Assets/Fonts/Poppins-ExtraBold.woff2'); format('woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('/Assets/Fonts/Montserrat-Regular.woff2'); format('woff2');
+}
