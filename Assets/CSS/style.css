@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .branding {
     position: absolute;
     top: 2vh;
@@ -45,4 +50,86 @@
     font-family: 'Poppins-ExtraBold', sans-serif;
     color: #373737;
     white-space: nowrap;
+}
+
+.About-Me-Section {
+    background: #DDDDDD;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.text-block h2{
+    font-family: 'Glacial-Regular', sans-serif;
+    font-size: 50px;
+}
+
+.text-block h1{
+    font-family: 'Glacial-Bold', sans-serif;
+    font-size: 71px;
+    margin-top: -3vh ;
+}
+
+.text-block p{
+    font-family: 'Glacial-Regular', sans-serif;
+    font-size: 20px;
+    margin-top:-5vh;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+.satisfaction-box {
+    align-self: flex-end;
+    text-align: right;
+    margin-right: 2vw;
+}
+
+.satisfaction-text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.satisfaction-bar {
+    width: 0;
+    height: 6px;
+    background-color: #E93656;
+    animation: fill-bar 1.5s ease-out forwards;
+    border-radius: 6px;
+}
+
+.prc-highlight {
+    color: #E93656;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+@keyframes fill-bar {
+    to {
+        width: 100%;
+    }
+}
+
+.profile-img {
+    max-width: 40vw;
+    height: auto;
+    object-fit: cover;
+    margin-left: 12vw;
+    margin-top: 7vh;
 }

@@ -7,3 +7,18 @@
     font-family: 'Montserrat-Regular';
     src: url('/Assets/Fonts/Montserrat-Regular.woff2'); format('woff2');
 }
+
+@font-face {
+    font-family: 'Glacial-Regular';
+    src: url('/Assets/Fonts/GlacialIndifference-Regular.woff2'); format('woff2');
+}
+
+@font-face {
+    font-family: 'Glacial-Bold';
+    src: url('/Assets/Fonts/GlacialIndifference-Bold.woff2'); format('woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('/Assets/Fonts/Montserrat-Bold.woff2'); format('woff2');
+}
