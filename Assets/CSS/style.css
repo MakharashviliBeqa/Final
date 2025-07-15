@@ -3,6 +3,11 @@ body{
     padding: 0;
 }
 
+.gray-background {
+    background-color: #DDDDDD;
+    padding: 40px 0;
+}
+
 .branding {
     position: absolute;
     top: 2vh;
@@ -53,7 +58,6 @@ body{
 }
 
 .About-Me-Section {
-    background: #DDDDDD;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -132,4 +136,141 @@ body{
     object-fit: cover;
     margin-left: 12vw;
     margin-top: 7vh;
+}
+
+.profile-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.profile-bio,
+.profile-skills {
+    flex: 1;
+}
+
+.profile-bio {
+    text-align: right;
+}
+
+.profile-bio h2 {
+    font-family: 'Glacial-Bold', sans-serif;
+    font-size: 40px;
+    color: #222222;
+}
+
+.profile-photo {
+    flex-shrink: 0;
+}
+
+.center-image {
+    width: 20vw;
+    height: auto;
+    margin-top: 8vh ;
+}
+
+.Front-End-Developer{
+    font-family: "Muli", sans-serif;
+    color: #DAAE19;
+    margin-top: -3vh;
+}
+
+.profile-bio-about{
+    font-family: "Muli-Regular", sans-serif;
+    font-size: 15px;
+    margin-top: 3vh;
+}
+
+.Hire-Me {
+    font-family: "Glacial-Bold", sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #999999;
+    padding: 15px 40px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+
+.Hire-Me:hover {
+    background-color: #E93656;
+}
+
+.percent{
+    font-family: 'Glacial-Bold', sans-serif;
+    font-size: 20px;
+    color: #E93656;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 300px;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.skill-header {
+    display: flex;
+    align-items: center;
+}
+
+.skill-name{
+    font-family: 'Glacial-Bold', sans-serif;
+    font-size: 20px;
+    color: #555555;
+}
+
+.skill-bar-background {
+    width: 100%;
+    height: 8px;
+    background-color: #ccc;
+    position: relative;
+    overflow: hidden;
+}
+
+.skill-bar-fill {
+    height: 100%;
+    width: 0;
+    background-color: #E93656;
+    animation: fill-skill-bar 2s ease-out forwards;
+}
+
+@keyframes fill-skill-bar {
+    to {
+        width: var(--skill-level);
+    }
+}
+
+.skills-button button img {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-btn {
+    width: 50px;
+    height: 50px;
+    background-color: #F9F9F9;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    padding: 0;
+    border: none;
+}
+
+.icon-btn img {
+    width: 25px;
+    height: 25px;
+}
+
+.icon-btn:hover {
+    background-color: #15263E;
 }
