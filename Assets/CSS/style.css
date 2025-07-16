@@ -274,3 +274,75 @@ body{
 .icon-btn:hover {
     background-color: #15263E;
 }
+
+.contact-section {
+    background-color: #15263E;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px 0;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px dashed #FFFFFF;
+    background-color: #15263E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    padding: 5px;
+}
+
+.circle img {
+    width: 30px;
+    height: 30px;
+}
+
+.circle:hover {
+    border: none;
+    background-color: #E93656;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-label {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    font-family: 'Glacial-Bold', sans-serif;
+}
+
+.contact-info {
+    color: #DFDFDF;
+    font-size: 14px;
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-info a:hover,
+.contact-info a:focus,
+.contact-info a:active {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
