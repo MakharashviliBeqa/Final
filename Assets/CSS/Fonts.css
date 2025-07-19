@@ -1,39 +1,39 @@
 @font-face {
     font-family: 'Poppins-ExtraBold';
-    src: url('/Assets/Fonts/Poppins-ExtraBold.woff2'); format('woff2');
+    src: url('../Fonts/Poppins-ExtraBold.woff2'); format('woff2');
 }
 
 @font-face {
     font-family: 'Montserrat-Regular';
-    src: url('/Assets/Fonts/Montserrat-Regular.woff2'); format('woff2');
+    src: url('../Fonts/Montserrat-Regular.woff2'); format('woff2');
 }
 
 @font-face {
     font-family: 'Glacial-Regular';
-    src: url('/Assets/Fonts/GlacialIndifference-Regular.woff2'); format('woff2');
+    src: url('../Fonts/GlacialIndifference-Regular.woff2'); format('woff2');
 }
 
 @font-face {
     font-family: 'Glacial-Bold';
-    src: url('/Assets/Fonts/GlacialIndifference-Bold.woff2'); format('woff2');
+    src: url('../Fonts/GlacialIndifference-Bold.woff2'); format('woff2');
 }
 
 @font-face {
     font-family: 'Montserrat-Bold';
-    src: url('/Assets/Fonts/Montserrat-Bold.woff2'); format('woff2');
+    src: url('../Fonts/Montserrat-Bold.woff2'); format('woff2');
 }
 
 @font-face {
     font-family: 'Muli';
-    src: url('/Assets/Fonts/Muli.woff2'); format('woff2');
+    src: url('../Fonts/Muli.woff2'); format('woff2');
 }
 
 @font-face {
     font-family: 'Muli-Regular';
-    src: url('/Assets/Fonts/Muli-Regular.woff2'); format('woff2');
+    src: url('../Fonts/Muli-Regular.woff2'); format('woff2');
 }
 
 @font-face {
     font-family: 'Muli-Light';
-    src: url('/Assets/Fonts/Muli-Light.woff2'); format('woff2');
+    src: url('../Fonts/Muli-Light.woff2'); format('woff2');=]
 }
