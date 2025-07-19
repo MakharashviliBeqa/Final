@@ -37,3 +37,13 @@
     font-family: 'Muli-Light';
     src: url('../Fonts/Muli-Light.woff2'); format('woff2');=]
 }
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../Fonts/Roboto-Regular.woff2'); format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto-light';
+    src: url('../Fonts/Roboto-Light.woff2'); format('woff2');
+}

@@ -431,3 +431,133 @@ body{
     font-size: 14px;
     font-family: 'Muli-Light', sans-serif;
 }
+
+.user-reviews-section {
+    background-image: url('../Photos/clip.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+
+
+.user-review-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+    z-index: 2;
+    flex-wrap: wrap;
+}
+
+.review-image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-dashed {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.circle-dashed {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.circle-dashed:hover {
+    background-color: #E93656;
+    border: none;
+}
+
+.circle-dashed img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.circle-dashed:hover img {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.review-text {
+    max-width: 25vw;
+    text-align: right;
+    font-family: 'Roboto-light', sans-serif;
+    font-size:  15px;
+    word-spacing: 0.45px ;
+}
+
+.user-job{
+    font-size: 13px;
+    font-family: 'Roboto-Regular', sans-serif;
+    color: #E93656;
+    margin-top: 25px;
+}
+
+.user-name {
+    font-size: 28px;
+    font-family: 'Glacial-Bold', sans-serif;
+    color: #fff;
+    margin-top: -5px;
+}
+
+.review-text.right-text {
+    text-align: left !important;
+}
+
+.right-text-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.review-text.right-text {
+    text-align: left;
+}
+
+.review-switcher {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+}
+
+.review-text p {
+    line-height: 1.8;
+}
+
+.switcher-btn {
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.switcher-btn.active {
+    border-color: #E93656;
+    background-color: transparent;
+}
