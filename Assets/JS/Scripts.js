@@ -51,3 +51,27 @@ switcherBtns.forEach((btn, index) => {
         btn.classList.add('active');
     });
 });
+
+const categoryButtons = document.querySelectorAll('.category-btn');
+const projects = document.querySelectorAll('.project');
+
+categoryButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        categoryButtons.forEach(b => b.classList.remove('active'));
+        button.classList.add('active');
+
+        const selected = button.getAttribute('data-category');
+
+        projects.forEach(project => {
+            const title = project.getAttribute('data-title');
+
+            if (selected === 'all') {
+                project.classList.remove('highlight');
+            } else if (title === selected) {
+                project.classList.add('highlight');
+            } else {
+                project.classList.remove('highlight');
+            }
+        });
+    });
+});

@@ -432,6 +432,8 @@ body{
     font-family: 'Muli-Light', sans-serif;
 }
 
+/*review-section*/
+
 .user-reviews-section {
     background-image: url('../Photos/clip.jpg');
     background-size: cover;
@@ -560,4 +562,171 @@ body{
 .switcher-btn.active {
     border-color: #E93656;
     background-color: transparent;
+}
+
+/*projects-section*/
+
+.projects-heading {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 40px;
+    color: #2E2E2E;
+    font-family: 'Glacial-Bold', sans-serif;
+}
+
+.projects-section {
+    padding: 60px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.sidebar-box {
+    background: #15263E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    height: 100%;
+}
+.sidebar-box .category-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.category-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 40px 0;
+}
+
+.category-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 5px 0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    width: 120px;
+    font-family: 'Glacial-Bold', sans-serif;
+}
+
+.category-btn.active,
+.category-btn:hover {
+    border-color: #E93656;
+    color: #E93656;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    width: fit-content;
+}
+
+.project {
+    position: relative;
+    width: 13vw;
+    height: 30vh;
+    overflow: hidden;
+}
+
+
+.project-hover-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.8);
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 10px 0;
+}
+
+.project:hover .project-hover-info {
+    opacity: 1;
+}
+
+.project-time,
+.project-name {
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.project-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 17, 17, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: opacity 0.3s ease;
+}
+
+.project-title .hover-img {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #E93656;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.hover-time {
+    color: #DDDDDD;
+    font-family: 'Muli', sans-serif;
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.hover-text{
+    color: #FFFFFF;
+    font-family: 'Glacial-Bold', sans-serif;
+    font-size: 23px;
+    margin-top: -5px;
+}
+
+.project-title,
+.project-title  {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.project:hover .project-title,
+.project.highlight .project-title {
+    opacity: 1;
+}
+
+.project.highlight img {
+    transform: scale(1.03);
 }
