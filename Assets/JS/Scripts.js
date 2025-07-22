@@ -75,3 +75,8 @@ categoryButtons.forEach(button => {
         });
     });
 });
+
+document.querySelectorAll('.read-more-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+    });
+});
