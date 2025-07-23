@@ -80,3 +80,9 @@ document.querySelectorAll('.read-more-btn').forEach(btn => {
     btn.addEventListener('click', () => {
     });
 });
+
+document.querySelectorAll('.read-more-link').forEach(link => {
+    link.addEventListener('click', function(event) {
+        event.preventDefault();
+    });
+});
