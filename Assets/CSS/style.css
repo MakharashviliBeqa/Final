@@ -924,3 +924,92 @@ body{
     font-family: 'Glacial-Bold', sans-serif;
     font-size: 30px;
 }
+
+/*client-section*/
+
+.client-section-header {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.client-section-title {
+    font-size: 70px;
+    font-weight: 700;
+    color: #262526;
+    margin: 0;
+    font-family: glacial-bold, sans-serif;
+}
+
+.client-section-subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2ed279;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-family: glacial-bold, sans-serif;
+}
+
+.client-section {
+    margin-top: 50px;
+    margin-bottom: 155px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.client-item {
+    width: 5vw;
+    height: 10vh;
+    padding: 40px 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item img {
+    max-width: 100px;
+    max-height: 100px;
+    transition: opacity 0.3s ease;
+}
+
+.client-item:hover img {
+    opacity: 0;
+}
+
+.client-text {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #e93656 4px solid;
+    background-color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.client-item:hover .client-text {
+    opacity: 1;
+}
+
+.client-title {
+    color: #161616;
+    font-size: 16px;
+    font-family: 'Poppins-SemiBold', sans-serif;
+    margin-bottom: 10px;
+}
+
+.client-description {
+    color: #626262;
+    font-size: 13px;
+    font-family: 'Roboto-light', sans-serif;
+}

@@ -44,6 +44,11 @@
 }
 
 @font-face {
-    font-family: 'Roboto-light';
+    font-family: 'Poppins-SemiBold';
+    src: url('../Fonts/Poppins-SemiBold.woff2'); format('woff2');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
     src: url('../Fonts/Roboto-Light.woff2'); format('woff2');
 }
