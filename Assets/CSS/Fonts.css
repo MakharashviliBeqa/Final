@@ -52,3 +52,13 @@
     font-family: 'Roboto-Light';
     src: url('../Fonts/Roboto-Light.woff2'); format('woff2');
 }
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../Fonts/Roboto-Regular.woff2'); format('woff2');
+}
+
+@font-face {
+    font-family: 'Jaapokki-Regular';
+    src: url('../Fonts/Jaapokki-Regular.woff2'); format('woff2');
+}

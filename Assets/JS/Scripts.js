@@ -86,3 +86,42 @@ document.querySelectorAll('.read-more-link').forEach(link => {
         event.preventDefault();
     });
 });
+
+document.getElementById('custom-contact-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    const form = e.target;
+    const message = form.message.value.trim();
+
+    const modal = document.getElementById('custom-contact-modal');
+
+    const payload = {
+        title: message,
+        body: message,
+        userId: 1
+    };
+
+    try {
+        let response = await fetch('https://jsonplaceholder.typicode.com/posts', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+
+        if (!response.ok) throw new Error('API request failed');
+
+        showModal();
+        form.reset();
+
+    } catch (error) {
+        alert('There was an error sending your message. Please try again later.');
+    }
+
+    function showModal() {
+        modal.style.display = 'flex';
+    }
+});
+
+function closeCustomModal() {
+    document.getElementById('custom-contact-modal').style.display = 'none';
+}
