@@ -1268,9 +1268,8 @@ body{
     background: #171717;
 }
 
-/* Responsive Styles */
+/* Responsive-mobile-design */
 
-/* Tablet styles */
 @media (max-width: 1024px) {
     .roca {
         font-size: 32px;
@@ -1330,7 +1329,6 @@ body{
     }
 }
 
-/* mobile-styles */
 @media (max-width: 768px) {
     body {
         overflow-x: hidden;
